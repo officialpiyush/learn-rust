@@ -1,4 +1,5 @@
 // Main Function
 fn main() {
-    println!("Hello iona")
+    println!("Hello");
+    println!("iona")
 }
