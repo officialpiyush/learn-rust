@@ -1,6 +1,14 @@
+// use std::fmt::Debug;
+
+// #[derive(Debug)]
+// struct Unprintable(i32);
+
 #[derive(Debug)]
-struct Unprintable(i32);
+struct Printabe(i32);
 
 fn main() {
-println!("{}",Unprintable);	
+    let p = Printabe(21);
+
+    // println!("{}", Unprintable);
+    println!("{:?}", p);
 }
